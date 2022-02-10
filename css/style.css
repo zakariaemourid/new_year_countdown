@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  background: url(/images/bg.jpg) no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: black;
+}
+.time {
+  display: flex;
+  justify-content: space-between;
+  width: 70vw;
+  font-size: 2rem;
+  text-align: center;
+  padding: 50px;
+}
+.number {
+  font-size: 5rem;
+  font-weight: bold;
+}
